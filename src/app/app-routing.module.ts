@@ -15,7 +15,14 @@ const routes: Routes = [
     path: 'pie',
     loadChildren: './pie/pie.module#PiePageModule'
   },
-  { path: 'pie', loadChildren: './pie/pie.module#PiePageModule' }
+  {
+    path: 'scatter',
+    loadChildren: './scatter/scatter.module#ScatterPageModule'
+  },
+  {
+    path: 'dynamic',
+    loadChildren: './dynamic/dynamic.module#DynamicPageModule'
+  }
 ];
 
 @NgModule({

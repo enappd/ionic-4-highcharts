@@ -12,14 +12,25 @@ export class AppComponent {
   public appPages = [
     {
       title: 'Bar Charts',
-      url: '/stats',
-      icon: 'bar'
+      url: '/bar',
+      icon: 'stats'
     },
     {
       title: 'Pie Charts',
       url: '/pie',
       icon: 'pie'
+    },
+    {
+      title: 'Scatter Chart',
+      url: '/scatter',
+      icon: 'pie'
+    },
+    {
+      title: 'Dynamic Chart',
+      url: '/dynamic',
+      icon: 'pie'
     }
+
   ];
 
   constructor(

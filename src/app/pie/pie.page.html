@@ -1,9 +1,44 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>pie</ion-title>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Pie Charts / HighCharts
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-list-header color="light">Simple Pie Chart</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title>Simple Pie Chart</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div id="simplePie" style="width:100%; height:400px;"></div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list-header color="light">Simple Donut Chart</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title>Simple Donut Chart</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div id="simpleDonut" style="width:100%; height:400px;"></div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list-header color="light">Semi-circular Donut Chart</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title>Semi-circular Donut</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div id="semi" style="width:100%; height:400px;"></div>
+    </ion-card-content>
+  </ion-card>
+
 
 </ion-content>
